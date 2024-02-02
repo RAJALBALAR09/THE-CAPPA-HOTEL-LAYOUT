@@ -1,0 +1,699 @@
+/*.......................... DEFULT CSS START............... */
+
+
+
+*,::after,::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Didact Gothic", sans-serif;
+}
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --bg:#222222;
+    --gold: #b19777;
+    --ftbg: #323232;
+    --fontc: #989898;
+}
+.speace-y{
+  padding: 45px 0px;
+  background-color: var(--bg);
+  overflow-y: hidden;
+}
+a{
+    text-decoration: none !important;
+    color: var(--white) !important;
+}
+.heading_h2{
+    text-transform: uppercase;
+    color: var(--fontc);
+}.speace-y
+.span{
+    color: var(--gold);
+    
+}
+
+/*.......................... DEFULT CSS START............... */
+
+
+
+
+/*.......................... HEADER PAGE CSS START............... */
+.bg{
+    background-color: var(--bg);
+    color: var(--white) !important;
+}
+.bg img{
+    width: 115px;
+    height: auto;
+}
+.Link{
+    color: var(--white);
+}
+.nav-link {
+    color: var(--white) !important;
+    padding: 15px 30px !important;
+    letter-spacing: 2px;
+}
+.navbar-toggler .collapsed {
+    color: var(--white) !important;
+    background-color: var(--white) !important;
+}
+.navbar-toggler-icon{
+    background-color: var(--white) !important;
+    color: white !important;
+    border-radius: 2px;
+}
+.logo{
+    width: 300px;
+}
+/*.......................... HEADER PAGE CSS END............... */
+
+
+
+/*.......................... FOOTER PAGE CSS START............... */
+.footer_img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-image: url('./Img/asset\ 23.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+}
+.footer_bg{
+ background-color: var(--ftbg);
+ width: 100%;
+ height: auto;
+}
+.item img{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+   
+}
+.footer_bg2{
+    background-color: var(--bg);
+    color: white !important;
+}
+.footer_bg2 h6{
+    color: var(--gold);
+}
+.footer_bg2 p{
+    color: var(--fontc);
+    font-size: 14px;
+}
+/*.......................... FOOTER PAGE CSS END............... */
+
+
+
+
+/*.......................... HOME PAGE CSS START............... */
+
+
+.slider img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.owl-nav{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    /* background-color:; */
+    display: flex;
+}
+.owl-carousel{
+ margin: 0px !important;
+ padding: 0px !important;
+}
+.owl-carousel .owl-nav button.owl-prev
+{
+    color: var(--white) !important;
+}
+.owl-nav .owl-prev{
+
+    margin-right: 10px !important;
+    background-color: transparent!important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    border: 2px solid var(--gold) !important;
+}
+.owl-nav .owl-next{
+
+    background-color: transparent!important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    border: 2px solid var(--gold) !important;
+    color: var(--white) !important;
+
+}
+
+.button{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    padding: 15px 20px;
+    width: 30%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: var(--ftbg) ;
+    color: var(--white);
+    /* font-size: 18px; */
+}
+h2{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.about img{
+    width: 100%;
+    height: auto;
+}
+.about{
+    background-color: var(--bg);
+    color: var(--fontc);
+    font-size: 14px;
+    padding-top: 45px;
+}
+.about .span{
+    color: var(--gold);
+}
+.about p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.about img{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    z-index: 99;
+    
+}
+.ab_img{
+    position: relative;
+}
+/* .about .br{
+    position: relative;
+}
+.about .br::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border:  1px solid white;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    z-index: 1;
+} */
+
+
+
+
+.pbox
+{
+    position: relative;
+}
+.pbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 47, 47, 0.5);
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    color: var(--white);
+    transition: 0.9s;
+}
+.pbox h6{
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 100;
+    color: var(--gold);
+    margin-top: 20px;
+}
+.pbox p{
+    letter-spacing: 2px;
+}
+.probox:hover .pbox{
+    position: absolute;
+    top: 50%;
+    bottom: 0;  
+} 
+.probox:hover .line1::before{
+    width: 100%;
+}
+.line1 {
+    position: relative;
+
+}
+.line1::before
+{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: var(--gold);
+    position: absolute;
+    left: 0%;
+    top:0%;
+    transition: 0.9s;
+    text-align: center;
+}
+
+
+
+.services img{
+    width: 60px;
+    height: 42px;
+}
+.services .box{
+    padding: 60px 30px;
+    position: relative;
+}
+.services .box::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box:hover::after{
+ opacity: 1;
+}
+.services p{
+    color: var(--fontc);
+}
+.services h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--fontc);
+}
+.line:hover::after{
+    width: 100%;
+}
+.box:hover .line::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.line{
+    position: relative;
+    margin-bottom: 20px;
+}
+.line::after{
+
+    content: '';
+    width: 10%;
+    height: 1px;
+    background-color: var(--gold);
+    position: absolute;
+    left: 0%;
+    top:0%
+}
+
+.cnt_item{
+    position: relative;
+}
+.cnt_item:hover .cnt_box{
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 20%;
+    /* left: 20%; */
+}
+.cnt_box{
+    width: 70%;
+    height: auto;
+    background-color: var(--ftbg);
+    color: var(--white);
+    padding: 20px 0px;
+    /* text-align: center; */
+    /* margin: auto; */
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    transition: 0.5s;
+    padding: 20px;
+    
+}
+.cnt_box span{
+    font-size: 12px;
+    color: var(--gold);
+    margin-bottom: 5px;
+}
+.cnt_box h3{
+    font-size: 18px;
+}
+
+
+/*.......................... HOME PAGE CSS END............... */
+
+
+
+/*.......................... ABOUT PAGE CSS START............... */
+
+
+.about1_img img{
+ width: 100%;
+ height: auto;
+ object-fit: cover;
+}
+.about_box h3{
+    color: var(--white) !important;
+    font-size: 16px !important;
+}
+.about_box{
+    background-color: var(--gold);
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition: 0.5s;
+    padding-top: 20px;
+
+}
+.team_box:hover .about_box{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+.team_box{
+    text-align: center;
+    color: var(--fontc);
+    padding: 20px;
+    /* border: 1px solid var(--white); */
+    text-transform: uppercase;
+    position: relative;
+}
+.team_box h6{
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+.team_box p{
+    font-size: 14px;
+    font-weight: 100;
+
+}
+.job {
+    color: var(--fontc);
+    transition: 0.7s;
+    
+}
+hr{
+    color: var(--white);
+    margin: 10px;
+    
+}
+.job:hover{
+    background-color: #b19777;
+    color: var(--white);
+}
+.about2{
+    padding-top: 45px;
+}
+/* .job1:hover::after{
+    
+    background-color: #b19777;
+
+}
+.job1::after{
+    
+    content: '';
+    background-color: transparent;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    color: var(--white);
+} */
+
+/*.......................... ABOUT PAGE CSS END............... */
+
+
+
+/*.......................... PARELLAX PAGE CSS START............... */
+
+.parallax1{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./Img/asset\ 3.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.parallax1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.parallax2{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./Img/asset\ 2.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.parallax2::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.parallax3{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./Img/asset\ 1.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.parallax3::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.parallax4{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./Img/asset\ 4.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.parallax4::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.prlx_box1{
+    position: absolute;
+    /* top: 40%; */
+    left: 10%;
+    bottom: 30%;
+    color: var(--white);
+    z-index: 1;
+}
+.prlx_box2{
+    position: absolute;
+    /* top: 40%; */
+    right: 10%;
+    bottom: 30%;
+    color: var(--white);
+    z-index: 1;
+}
+.prlx_box3{
+    position: absolute;
+    /* top: 40%; */
+    left: 10%;
+    bottom: 30%;
+    color: var(--white);
+    z-index: 1;
+}
+.prlx_box4{
+    position: absolute;
+    /* top: 40%; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--white);
+    z-index: 1;
+}
+.prlx_box p{
+    font-size: 18px;
+    line-height: 2;
+}
+.prlx_box h1{
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+}
+.prlx_box .btn1{
+    /* width: 20%; */
+    margin-top: 20px;
+    text-align: center;
+    width: 40%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid var(--gold);
+    position: relative;
+    z-index: 1;
+}
+.prlx_box .btn1::after{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+
+}
+.prlx_box .btn1:hover::after{
+    background-color: #b19777;
+    color: var(--white) !important;
+    width: 100%;
+
+}
+/*.......................... PARELLAX PAGE CSS END............... */
+
+
+
+/*.......................... GALLARY PAGE CSS START............... */
+
+
+.gallary img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallary .img{
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+.gallary .img:hover{
+    
+    transform: scale(1.1); 
+}
+.gallary .img::after{
+    
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+}
+.gallary .img:hover::after{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.gallary p{
+    color: var(--fontc);
+}
+.scale{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    padding: 0px 16px;
+}
+
+/*.......................... GALLARY PAGE CSS END............... */
+
+
+
+/*.......................... CONTACT PAGE CSS START............... */
+
+.col-form-label{
+    
+    color: var(--gold) !important;
+    margin: 0px !important;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid var(--gold) !important;
+    background-color: var(--bg) !important;
+    color: var(--white) !important;
+    border-radius: none !important;
+}
+.contect span ,p {
+    color: var(--fontc);
+}
+.contect .span{
+    color: var(--gold);
+}
+.contect b{
+    color: var(--gold);
+}
+.contect h6
+{
+    color: var(--gold);
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    background-color: transparent !important;
+    border: 1px solid var(--gold) !important;
+    border-radius: none !important;
+    padding: 8px 40px !important;
+    margin-top: 20px;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+}
+/*.......................... CONTACT PAGE CSS END............... */
+
+
+
+
+
+
+
+
